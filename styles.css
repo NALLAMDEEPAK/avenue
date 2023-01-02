@@ -70,8 +70,54 @@ p{
 
 
 .services{
-    height: 85vh;
+    margin:0 1%;
+    height: fit-content;
+    padding:3% 0 2% 0;
 }
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .button {
+    width: 35%;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color:black;
+    font-size: 16px;
+  }
+  
+  .imgser img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+
+  }
+  .serv h5{
+    padding:4% 0;
+  }
+  .col-lg-5{
+    padding-bottom: 15%;
+  }
+  .back
+  {
+    background-color: #000;
+    border-radius: 10px 10px 0 0 ;
+    color: #fff;
+  }
+  .list1{
+    border:5px solid #000;
+    /* border-radius: 10%; */
+    border-top:0px;
+    padding: 0%;
+    border-radius: 15px;
+  }
+  
 
 
 
@@ -134,7 +180,48 @@ p{
 .one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven,.twelve{
    /* margin:auto; */
    display: inline;
+   background-color: #000;
+   opacity: 0.5;
 }
+
+.one:hover{
+  opacity:1;
+}
+.two:hover{
+    opacity:1;
+  }
+  .three:hover{
+    opacity:1;
+  }
+  .four:hover{
+    opacity:1;
+  }
+  .five:hover{
+    opacity:1;
+  }
+  .six:hover{
+    opacity:1;
+  }
+  .seven:hover{
+    opacity:1;
+  }
+  .eight:hover{
+    opacity:1;
+  }
+  .nine:hover{
+    opacity:1;
+  }
+  .ten:hover{
+    opacity:1;
+  }
+  .eleven:hover{
+    opacity:1;
+  }
+  .twelve:hover{
+    opacity:1;
+  }
+
+
 
 .contact{
     height:50vh;
