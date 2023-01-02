@@ -117,7 +117,25 @@ p{
     padding: 0%;
     border-radius: 15px;
   }
-  
+.services{
+  display: flex;
+  flex-direction: column;
+}
+.serv{
+  display:flex ;
+  justify-content:space-evenly;
+}
+.list{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.amount{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 
 
 
