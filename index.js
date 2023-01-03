@@ -227,7 +227,7 @@
         $("#code16").hide();
         $("#code17").hide();
       });
-      $("#button13").click(function() {
+      $("#button3").click(function() {
         $("#code1").hide();
         $("#code2").hide();
         $("#code3").hide();
