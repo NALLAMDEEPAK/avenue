@@ -32,11 +32,15 @@
     background-color:white;
     padding: 0.4% 0 0 0;
 }
-.home{
-    height:780px ;
+/* .home{
+    height:23em ;
     background-image: url("Home2.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+} */
+.home img{
+  height: 100%;
+  width: 98vw;
 }
 .ab{
     padding: 2%;
@@ -135,47 +139,10 @@ p{
   justify-content: space-between;
   align-items: center;
 }
-
-
-
-
-
-/* .images{
-    border: 2px solid black;
-    border-radius: 10px;
-}
 .gallery{
-    padding: 2%;
+  background-color: black;
+  padding: 5%;
 }
-.gallery h1{
-    padding-top: 20px;
-    color: #CF1E6F;
-}
-.images{
-    display: flex;
-    margin: auto;
-    padding: 20px;
-    flex-wrap:wrap;
-    justify-content:space-evenly ;
-}
-.images img{
-    width: 25rem;
-    height: 20rem;
-    padding: 10px;
-}
-.images img:hover{
-    width: 35rem;
-    height: 20rem;
-    padding: 20px;
-    border: 3px solid #CF1E6F;
-    border-radius: 5px;
-}
-  
-   */
-   .gallery{
-    background-color: black;
-    padding: 5%;
-   }
 .gal{
     width:32%;
 }
@@ -238,14 +205,40 @@ p{
   .twelve:hover{
     opacity:1;
   }
-
-
-
-.contact{
-    height:50vh;
+.logo img{
+  width: 200px;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
-  
-    
+.logo{
+  padding: 3px;
+  padding-right: 15px;
+}
+#contact{
+  border: 15px solid white;
+  font-family: Montserrat;
+}
+#contact h2{
+  text-shadow: #000 5px 5px 10px;
+}
+.contact{
+  display: flex;
+}
+.details{
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+}
+.num pre{
+  display: inline;
+}
+.contact a{
+  color: #000;
+  text-decoration: none;
+}
 
 /* media */
 @media (max-width:430px) {
