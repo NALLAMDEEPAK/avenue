@@ -140,6 +140,18 @@ p{
 {
   margin: 15% 0;
 }
+
+
+.i{
+  display: flex;
+  flex-direction: row;
+}
+.i1{
+  width: 50vw;
+}
+.i2{
+ width:50vw;
+}
 #contact img{
   width: 65%;
   /* margin:2% 0 0 5% ; */
