@@ -32,9 +32,11 @@
     background-color:white;
     padding:0;
 }
-.home img{
-  height: 100%;
-  width: 98vw;
+.home{
+    height:49rem;
+    background-image: url("Home2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .ab{
     padding: 2%;
