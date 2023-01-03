@@ -114,6 +114,7 @@ p{
     border:5px solid #000;
     border-top:0px;
     padding: 0%;
+    margin-left: 4%;
     border-radius: 15px;
   }
 .services{
@@ -189,7 +190,7 @@ p{
     border-radius: 20px;
     border:7px solid #CF1E6F;
     box-shadow:0 0 20px 0  black;
-    filter: drop-shadow();
+    /* filter: drop-shadow(); */
 }
 .c{
     margin:auto;
