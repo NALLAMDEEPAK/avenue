@@ -149,6 +149,9 @@ p{
   display:flex ;
   justify-content:space-evenly;
 }
+.serv h3{
+  font-weight: 900;
+}
 .list{
   display:flex;
   flex-direction: column;
