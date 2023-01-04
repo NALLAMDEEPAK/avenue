@@ -318,9 +318,8 @@ opacity:1;
   .des p{
       font-size: 14px;
   }
-  
-  .images img{
-      width:49%;
+  .images{
+    margin: auto;
   }
   .gal:hover{
       transform: scale(1.25);
@@ -344,12 +343,12 @@ opacity:1;
 .c h1{
  margin-left: 10%;
 }
-.images{
- margin-left: 9%;
-}
 .address{
   font-size: 80%;
   font-weight: 550;
+}
+.row{
+  padding-left: 5px;
 }
 .num{
   font-size: 85%;
