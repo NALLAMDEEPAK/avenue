@@ -143,7 +143,9 @@ p{
     margin-left: 2%;
   }
 .services{
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
   margin: auto;
 }
@@ -155,23 +157,20 @@ p{
 }
 .serv{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
-.list,.amo{
+.list{
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-end;
 }
-.amo{
+.amount{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
 }
-.amo h3{
-  padding-top: 1%;
-}
-.amo h5
-{
-  margin: 15% 0;
-}
+
 
 
 .i{
