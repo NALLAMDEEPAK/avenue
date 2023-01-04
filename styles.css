@@ -91,16 +91,20 @@ p{
     color:black;
     font-size: 16px;
   }
+  .imgser{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-self: center;
+    margin: auto;
+  }
   
   .imgser img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    align-self: center;
     margin: auto;
-
-  }
-  .serv h5{
-    padding:4% 0;
   }
   .col-lg-5{
     padding-bottom: 15%;
@@ -139,31 +143,32 @@ p{
     margin-left: 2%;
   }
 .services{
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  align-items: center;
+  margin: auto;
 }
 .services button{
   background-color: #CF1E6F;
 }
-.serv{
-  display:flex ;
-  justify-content:space-evenly;
-}
 .serv h3{
   font-weight: 900;
 }
-.list{
-  display:flex;
-  flex-direction: column;
+.serv{
+  display: flex;
   justify-content: space-evenly;
 }
-.amount{
+.list,.amo{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+.amo{
   align-items: center;
 }
-.amount h5
+.amo h3{
+  padding-top: 1%;
+}
+.amo h5
 {
   margin: 15% 0;
 }
