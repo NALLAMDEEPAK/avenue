@@ -222,19 +222,22 @@ p{
 .num{
   letter-spacing:2px;
 }
-   .gallery{
+     .gallery{
     background-color: black;
     padding: 5%;
 
    }
+.images{
+  perspective: 1300px;
+}
 .gal{
     width:32%;
+    object-fit: cover;
+    transition: transform 1s,opacity 0.5s;
 }
 .images img{
     border-radius: 20px;
-    border:7px solid #CF1E6F;
-    box-shadow:0 0 20px 0  black;
-    /* filter: drop-shadow(); */
+    border:5px solid #CF1E6F;
 }
 .c{
     margin:auto;
@@ -242,54 +245,6 @@ p{
 .c h1{
     color: #fff;
 }
-.gal:hover{
- transform: scale(1.1);
- z-index: 1;
-}
-.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven,.twelve{
-   /* margin:auto; */
-   display: inline;
-   background-color: #000;
-   opacity: 0.5;
-}
-
-.one:hover{
-  opacity:1;
-}
-.two:hover{
-    opacity:1;
-  }
-  .three:hover{
-    opacity:1;
-  }
-  .four:hover{
-    opacity:1;
-  }
-  .five:hover{
-    opacity:1;
-  }
-  .six:hover{
-    opacity:1;
-  }
-  .seven:hover{
-    opacity:1;
-  }
-  .eight:hover{
-    opacity:1;
-  }
-  .nine:hover{
-    opacity:1;
-  }
-  .ten:hover{
-    opacity:1;
-  }
-  .eleven:hover{
-    opacity:1;
-  }
-  .twelve:hover{
-    opacity:1;
-  }
-
 
     
 
