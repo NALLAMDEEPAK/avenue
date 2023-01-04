@@ -1,5 +1,26 @@
 
-    $("#button1").click(function() {
+   const images = document.querySelectorAll('.gal');
+   let currentIndex = 0;
+   
+   function cycleImages() {
+     images.forEach((image, index) => {
+       if (index === currentIndex) {
+         image.style.transform = 'translateZ(100px)';
+         image.style.opacity=1;
+       } else {
+         image.style.transform = 'none';
+         image.style.opacity=0.5;
+       }
+     });
+     currentIndex = (currentIndex + 1) % images.length;
+   }
+   
+   setInterval(cycleImages, 1000);
+   
+   
+   
+   
+   $("#button1").click(function() {
         $("#code1").show();
         $("#code2").hide();
         $("#code3").hide();
