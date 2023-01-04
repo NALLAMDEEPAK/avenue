@@ -153,27 +153,14 @@ margin: auto;
 .services button{
 background-color: #CF1E6F;
 }
-.serv h3{
-font-weight: 900;
+table{
+  margin: auto;
+  height: 50vh;
+  font-size: x-large;
 }
-.serv{
-display: flex;
-justify-content: space-evenly;
-}
-.list,.amo{
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-}
-.amo{
-align-items: center;
-}
-.amo h3{
-padding-top: 1%;
-}
-.amo h5
-{
-margin: 15% 0;
+table td{
+  padding: 5%;
+  padding-left: 15%;
 }
 
 
