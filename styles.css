@@ -32,11 +32,8 @@
     background-color:white;
     padding:0;
 }
-.home{
-    height:49rem;
-    background-image: url("Home2.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+.home img{
+  width: 98vw;
 }
 .ab{
     padding: 2%;
@@ -168,14 +165,16 @@ p{
 }
 .i1{
   width: 50vw;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
 }
 .i2{
- width:50vw;
+  width:50vw;
 }
 #contact img{
-  width: 65%;
-  margin-left: 10%;
-  /* margin:2% 0 0 5% ; */
+  width: 20vw;
+  height: 200px;
 }
 #contact h2{
   text-shadow:#000 5px 5px 10px;
@@ -183,10 +182,11 @@ p{
 .acon{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  padding-left: 3%;
 }
 .con{
   display: flex;
-  margin: 2%;
 }
 .location{
   margin: 0% 2% 0% 0%;
@@ -207,13 +207,6 @@ p{
 .num{
   letter-spacing:2px;
 }
-
-
-
-/* .gall{
-  height: 50vh;
-  background-color: #000;
-} */
    .gallery{
     background-color: black;
     padding: 5%;
@@ -283,21 +276,10 @@ p{
   }
 
 
-
-.contact{
-    height:50vh;
-}
-  
     
 
 /* media */
 @media (max-width:430px) {
-    .home{
-        height:185px;
-        background-image: url("Home2.jpg");
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
     .na{
         padding: 0 10px 0 10px;
     }
@@ -325,10 +307,9 @@ p{
         transform: scale(1.25);
         z-index: 1;
        }
-    #contact img{
-      /* align-self: cente\\; */
-      margin: 10%;
-    }
+       #contact img{
+        width: 65%;
+      }
     .i1,.i2{
      width: auto;
     }
@@ -347,15 +328,10 @@ p{
   .images{
    margin-left: 9%;
   }
-  .flogo{
-    /* margin-left:auto; */
-    /* width:1%; */
-    /* align-self: center; */
-  }
   #contact img{
     margin: 0%;
     margin-left:16vw;
-    /* align-self: center; */
+    height: auto;
   }
   .address{
     font-size: 80%;
