@@ -4,6 +4,10 @@
     font-family: Montserrat;
     margin: 0;
 }
+body{
+  margin-left: 0.8%;
+  margin-right: 0;
+}
 @font-face {
     font-family: 'space_ageregular';
     src: url('space_age-webfont.woff2') format('woff2'),
@@ -103,20 +107,21 @@ p{
   }
   .b:link{
     text-decoration: none;
-    color: #000;
+    color: white;
   }
-  .b:hover{
-    text-decoration: none;
-    color: #000; 
-  }
+  
   .b:active{
     text-decoration: none;
-    color: #000; 
+    color: #dc10c4;
   }
   .b:visited{
     text-decoration: none;
-    color: #000;
-  }
+    color: white;
+ }
+ .b:hover{
+  text-decoration: none;
+  color: #000; 
+}
   .back
   {
     background-color: #000;
@@ -127,7 +132,7 @@ p{
     border:5px solid #000;
     border-top:0px;
     padding: 0%;
-    margin-left: 4.5%;
+    align-self: center;
     border-radius: 15px;
   }
   .list2{
@@ -137,6 +142,9 @@ p{
   display: flex;
   flex-direction: column;
 }
+.services button{
+  background-color: #CF1E6F;
+}
 .serv{
   display:flex ;
   justify-content:space-evenly;
@@ -144,12 +152,12 @@ p{
 .list{
   display:flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .amount{
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
+  justify-content: space-evenly;
   align-items: center;
 }
 .amount h5
@@ -165,6 +173,7 @@ p{
 }
 .i1{
   width: 50vw;
+  align-self: center;
   justify-content: center;
   flex-direction: row;
   display: flex;
@@ -173,8 +182,7 @@ p{
   width:50vw;
 }
 #contact img{
-  width: 20vw;
-  height: 200px;
+  width: 40%;
 }
 #contact h2{
   text-shadow:#000 5px 5px 10px;
@@ -328,11 +336,6 @@ p{
   .images{
    margin-left: 9%;
   }
-  #contact img{
-    margin: 0%;
-    margin-left:16vw;
-    height: auto;
-  }
   .address{
     font-size: 80%;
     font-weight: 550;
@@ -342,6 +345,6 @@ p{
     font-weight: 550;
   }
   .i{
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
   }
 }
