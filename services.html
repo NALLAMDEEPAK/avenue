@@ -11,12 +11,14 @@
     <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&family=Montserrat'); </style>
     <script defer src="https://use.fontawesome.com/releases/v6.2.1/js/all.js"></script>
     <script>
-      function zoomo(a){
+      function zoomo(){
+        if(window.outerWidth < 430){
           document.body.style.zoom="50%";
+        }
       }
   </script>
 </head>
-<body>
+<body onload=zoomo()>
     <div class="services" id="services">
         <div class="row">
          <div class="col-lg-5 list1">
