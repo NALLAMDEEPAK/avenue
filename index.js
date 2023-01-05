@@ -1,5 +1,10 @@
 
-
+window.addEventListener("load", function() {
+  setTimeout(function() {
+    document.querySelector(".loading").style.display = "none";
+    document.querySelector(".cont").style.display = "block";
+  }, 1400);
+});
 
 
 
@@ -485,6 +490,8 @@ $("#button17").click(function() {
         if (mediaQuery.matches) {
       
           contentElement.style.display = "block";
+          const d=document.getElementById("homea");
+          d.setAttribute("src","Home3.jpg")
           const div = document.getElementById("change");
           div.setAttribute("href","#contact");
           

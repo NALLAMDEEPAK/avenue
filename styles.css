@@ -3,6 +3,17 @@
 * {
   font-family: Montserrat;
 }
+.cont {
+  display: none;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 body{
   margin-left: 0;
   margin-right: 0;
@@ -39,7 +50,7 @@ body{
 width: 98vw;
 }
 .ab{
-  padding: 2%;
+  padding: 2.8% 2%;
   height: 100%;
   background-image:url("about.png");
   background-size:100% 100%;
@@ -85,6 +96,9 @@ p{
 .sp{
   width: 30%;
   border-radius: 50%;
+}
+.sa{
+  font-weight: bolder;
 }
 #s1{
   visibility: hidden;
@@ -367,21 +381,17 @@ width:50vw;
 width: 40%;
 margin-top: 4%;
 }
-#contact h2{
-text-shadow:#000 5px 5px 10px;
-}
-.contacts{
-  background-image: linear-gradient(225deg,#e77171,#55dbdb);
-}
 .contacts img{
   width: 100%;
   height: auto;
   padding: 10%;
 }
-.contact{
-  margin-top: 8px;
+.contacts{
+  background-image: linear-gradient(225deg,#e77171,#55dbdb);
 }
-
+#contact h2{
+text-shadow:#000 5px 5px 10px;
+}
 .acon{
 display: flex;
 flex-direction: column;
@@ -486,21 +496,8 @@ letter-spacing:3px;
   .gallery{
    margin: auto;
 }
-.i2{
-  background-image: linear-gradient(90deg,rgb(208, 26, 178),rgb(85, 64, 82));
-}
-.i1{
-  background-image: linear-gradient(90deg,rgb(208, 26, 178),rgb(85, 64, 82));
-}
 #contact img{
   margin-right: 1.5%;
-}
-.contacts{
-  padding: 0;
-  height: 100vh;
-}
-.contacts img{
-  margin-top: 40%;
 }
 .gal{
   width: 49%;
