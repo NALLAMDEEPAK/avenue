@@ -32,7 +32,7 @@ body{
 }
 
 .container-fluid{
-  background-color:white;
+  
   padding:0;
 }
 .home img{
@@ -361,6 +361,7 @@ width:50vw;
 }
 #contact img{
 width: 40%;
+margin-top: 4%;
 }
 #contact h2{
 text-shadow:#000 5px 5px 10px;
@@ -377,9 +378,7 @@ display: flex;
 .location{
 margin: 0% 2% 0% 0%;
 }
-.ph,.fb{
-margin-left: 2%;
-}
+
 .details h2{
 margin-top: 3%;
 }
@@ -390,8 +389,14 @@ color: black;
 .address{
 letter-spacing: 1.5px;
 }
+.sc{
+  margin: 1% 0;
+}
+.dail,.location{
+  margin-right: 2%;
+}
 .num{
-letter-spacing:2px;
+letter-spacing:3px;
 }
  .gallery{
   background-color: black;
@@ -457,13 +462,15 @@ letter-spacing:2px;
   }
   .list1{
     margin-left: 3%;
-    width: fit-content;
   }
   .row{
    width: 100%;
   }
   .gallery{
    margin: auto;
+}
+#contact img{
+  margin-right: 1.5%;
 }
 .gal{
   width: 49%;
