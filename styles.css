@@ -67,22 +67,193 @@ p{
   height: 100%;
 }
 
+.list1{
+  animation: 2s slide-right  forwards;
+    transform:translateX(-100%);
+}
 
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
+}
 
 .services{
   height: fit-content;
   padding:3% 0 2% 0;
 }
-.s{
+#s1{
   visibility: hidden;
   opacity: 0;
-  transition: all 3s;
+  transition: all 2s;
 }
 
-.s.visible {
+#s1.visible {
   visibility: visible;
   opacity: 1;
 }
+#s2{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2s;
+}
+
+#s2.visible {
+  visibility: visible;
+  opacity: 1;
+}
+#s3{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2s;
+}
+
+#s3.visible {
+  visibility: visible;
+  opacity: 1;
+}
+#s4{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2s;
+}
+
+#s4.visible {
+  visibility: visible;
+  opacity: 1;
+}
+#s5{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2s;
+}
+
+#s5.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+#s6{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2s;
+}
+
+#s6.visible {
+  visibility: visible;
+  opacity: 1;
+}
+#s7{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2s;
+}
+
+#s7.visible {
+  visibility: visible;
+  opacity: 1;
+}
+#s8{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2s;
+}
+
+#s8.visible {
+  visibility: visible;
+  opacity: 1;
+}
+#s9{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2s;
+}
+
+#s9.visible {
+  visibility: visible;
+  opacity: 1;
+}
+#s10{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2s;
+}
+
+#s10.visible {
+  visibility: visible;
+  opacity: 1;
+}
+#s11{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2s;
+}
+
+#s11.visible {
+  visibility: visible;
+  opacity: 1;
+}
+#s12{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2s;
+}
+
+#s12.visible {
+  visibility: visible;
+  opacity: 1;
+}
+#s13{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2s;
+}
+
+#s13.visible {
+  visibility: visible;
+  opacity: 1;
+}
+#s14{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2s;
+}
+
+#s14.visible {
+  visibility: visible;
+  opacity: 1;
+}
+#s15{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2s;
+}
+
+#s15.visible {
+  visibility: visible;
+  opacity: 1;
+}
+#s16{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2s;
+}
+
+#s16.visible {
+  visibility: visible;
+  opacity: 1;
+}
+#s17{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2s;
+}
+
+#s17.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
 .button-container {
   display: flex;
   flex-wrap: wrap;
@@ -272,12 +443,12 @@ letter-spacing:2px;
       font-size: 14px;
   }
   .images{
-    margin: auto;
+    margin: 2% 0% 0% 6%;
+
+    }
+  .hi{
+    padding: 0%;
   }
-  .gal:hover{
-      transform: scale(1.25);
-      z-index: 1;
-     }
      #contact img{
       width: 65%;
     }
@@ -292,6 +463,9 @@ letter-spacing:2px;
   }
   .gallery{
    margin: auto;
+}
+.gal{
+  width: 49%;
 }
 .c h1{
  margin-left: 10%;

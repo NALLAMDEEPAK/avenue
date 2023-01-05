@@ -1,3 +1,126 @@
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(function() {
+    document.getElementById('s1').classList.add('visible');
+  }, 500);
+});
+
+
+
+$("#button2").click(function() {
+  document.addEventListener('click', function() {
+    setTimeout(function() {
+      document.getElementById('s2').classList.add('visible');
+    }, 500);
+  });
+});
+$("#button3").click(function() {
+  document.addEventListener('click', function() {
+    setTimeout(function() {
+      document.getElementById('s3').classList.add('visible');
+    }, 500);
+  });
+});
+$("#button4").click(function() {
+  document.addEventListener('click', function() {
+    setTimeout(function() {
+      document.getElementById('s4').classList.add('visible');
+    }, 500);
+  });
+});
+$("#button5").click(function() {
+  document.addEventListener('click', function() {
+    setTimeout(function() {
+      document.getElementById('s5').classList.add('visible');
+    }, 500);
+  });
+});
+$("#button6").click(function() {
+  document.addEventListener('click', function() {
+    setTimeout(function() {
+      document.getElementById('s6').classList.add('visible');
+    }, 500);
+  });
+});
+$("#button7").click(function() {
+  document.addEventListener('click', function() {
+    setTimeout(function() {
+      document.getElementById('s7').classList.add('visible');
+    }, 500);
+  });
+});
+$("#button8").click(function() {
+  document.addEventListener('click', function() {
+    setTimeout(function() {
+      document.getElementById('s8').classList.add('visible');
+    }, 500);
+  });
+});
+$("#button9").click(function() {
+  document.addEventListener('click', function() {
+    setTimeout(function() {
+      document.getElementById('s9').classList.add('visible');
+    }, 500);
+  });
+});
+$("#button10").click(function() {
+  document.addEventListener('click', function() {
+    setTimeout(function() {
+      document.getElementById('s10').classList.add('visible');
+    }, 500);
+  });
+});
+$("#button11").click(function() {
+  document.addEventListener('click', function() {
+    setTimeout(function() {
+      document.getElementById('s11').classList.add('visible');
+    }, 500);
+  });
+});
+$("#button12").click(function() {
+  document.addEventListener('click', function() {
+    setTimeout(function() {
+      document.getElementById('s12').classList.add('visible');
+    }, 500);
+  });
+});
+$("#button13").click(function() {
+  document.addEventListener('click', function() {
+    setTimeout(function() {
+      document.getElementById('s13').classList.add('visible');
+    }, 500);
+  });
+});
+$("#button14").click(function() {
+  document.addEventListener('click', function() {
+    setTimeout(function() {
+      document.getElementById('s14').classList.add('visible');
+    }, 500);
+  });
+});
+$("#button15").click(function() {
+  document.addEventListener('click', function() {
+    setTimeout(function() {
+      document.getElementById('s15').classList.add('visible');
+    }, 500);
+  });
+});
+$("#button16").click(function() {
+  document.addEventListener('click', function() {
+    setTimeout(function() {
+      document.getElementById('s16').classList.add('visible');
+    }, 500);
+  });
+});
+$("#button17").click(function() {
+  document.addEventListener('click', function() {
+    setTimeout(function() {
+      document.getElementById('s17').classList.add('visible');
+    }, 500);
+  });
+});
+
+
+
 
    const images = document.querySelectorAll('.gal');
    let currentIndex = 0;
