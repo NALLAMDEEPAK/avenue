@@ -462,6 +462,7 @@ letter-spacing:3px;
   }
   .list1{
     margin-left: 3%;
+    width: fit-content;
   }
   .row{
    width: 100%;
