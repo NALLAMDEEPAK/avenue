@@ -1,11 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
   setTimeout(function() {
     document.getElementById('s1').classList.add('visible');
   }, 500);
 });
-
-
-
 $("#button2").click(function() {
   document.addEventListener('click', function() {
     setTimeout(function() {
@@ -469,3 +478,20 @@ $("#button17").click(function() {
 
   
     
+      const mediaQuery = window.matchMedia("(max-width: 600px)");
+      const contentElement = document.getElementById("content");
+      
+      function handleMediaQueryChange(mediaQuery) {
+        if (mediaQuery.matches) {
+      
+          contentElement.style.display = "block";
+          const div = document.getElementById("change");
+          div.setAttribute("href","#contact");
+          
+        } else {
+          contentElement.style.display = "none";
+        }
+      }
+      
+      mediaQuery.addListener(handleMediaQueryChange);
+      handleMediaQueryChange(mediaQuery);
