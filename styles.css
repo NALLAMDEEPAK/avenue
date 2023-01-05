@@ -82,6 +82,10 @@ p{
   height: fit-content;
   padding:3% 0 2% 0;
 }
+.sp{
+  width: 30%;
+  border-radius: 50%;
+}
 #s1{
   visibility: hidden;
   opacity: 0;
