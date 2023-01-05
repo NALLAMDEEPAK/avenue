@@ -18,7 +18,7 @@ body{
 .n{
   font-family: space_ageregular;
   font-size: 2rem;
-}
+} 
 .navbar-nav>li{
   padding-left: 10px;
   padding-right: 10px;
@@ -72,6 +72,16 @@ p{
 .services{
   height: fit-content;
   padding:3% 0 2% 0;
+}
+.s{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 3s;
+}
+
+.s.visible {
+  visibility: visible;
+  opacity: 1;
 }
 .button-container {
   display: flex;
@@ -155,12 +165,11 @@ background-color: #CF1E6F;
 }
 table{
   margin: auto;
-  height: 50vh;
+  height: auto;
   font-size: x-large;
 }
 table td{
-  /* padding: 5%;
-  padding-left: 15%; */
+padding: 2% 35px;
 }
 
 
