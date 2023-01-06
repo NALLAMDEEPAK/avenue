@@ -3,7 +3,7 @@ window.addEventListener("load", function() {
   setTimeout(function() {
     document.querySelector(".loading").style.display = "none";
     document.querySelector(".cont").style.display = "block";
-  }, 1000);
+  }, 1400);
 });
 
 
