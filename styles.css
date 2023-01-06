@@ -72,7 +72,7 @@ width: 100vw;
   text-align: center;
   color:#CF1E6F;
 }
-p{
+.des p{
   font-size: 15px;
   color:black;
   line-height: 2;
@@ -473,7 +473,13 @@ letter-spacing:3px;
       font-weight: bold;
   }
   .des p{
+      font-weight: 550;
       font-size: 14px;
+      color:black;
+      line-height: 1.8;
+      word;
+      height: 100%;
+   
   }
   .images{
     margin: 2% 0% 0% 6%;
